@@ -31,7 +31,7 @@ export const Navbar = () => {
             <a className="text-xl font-bold text-primary flex items-center gap-3" 
             href="#hero">
                 <img 
-                    src="/profile-picture.jpg" 
+                    src="/profile.png" 
                     alt="Mathew Madutsa" 
                     className="w-10 h-10 rounded-full object-cover border-2 border-primary/20"
                 />
