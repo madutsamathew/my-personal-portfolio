@@ -28,8 +28,13 @@ export const Navbar = () => {
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
     )}>
         <div className="container flex items-center justify-between">
-            <a className="text-xl font-bold text-primary flex items-center" 
+            <a className="text-xl font-bold text-primary flex items-center gap-3" 
             href="#hero">
+                <img 
+                    src="/profile-picture.jpg" 
+                    alt="Mathew Madutsa" 
+                    className="w-10 h-10 rounded-full object-cover border-2 border-primary/20"
+                />
                 <span className="relative z-10">
                     <span className="text-glow text-foreground">Mathew Madutsa</span>{" "} 
                     Portifolio
